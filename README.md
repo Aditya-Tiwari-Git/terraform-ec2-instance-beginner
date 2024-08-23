@@ -12,6 +12,6 @@ This repository contains a beginner-friendly guide to using Terraform to create 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/terraform-ec2-instance-beginner.git
+   git clone https://github.com/Aditya-Tiwari-Git/terraform-ec2-instance-beginner.git
    cd terraform-ec2-instance-beginner
 
