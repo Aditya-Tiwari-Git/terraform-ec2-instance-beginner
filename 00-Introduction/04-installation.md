@@ -6,12 +6,12 @@ Terraform can be installed on Linux, macOS, and Windows. Below are the installat
 
 1. **Download Terraform**:
    ```bash
-   wget https://releases.hashicorp.com/terraform/1.0.0/terraform_1.0.0_linux_amd64.zip
+   wget https://releases.hashicorp.com/terraform/1.9.5/terraform_1.9.5_linux_amd64.zip
    ```
 
 2. **Unzip the Package**:
    ```bash
-   unzip terraform_1.0.0_linux_amd64.zip
+   unzip terraform_1.9.5_linux_amd64.zip
    ```
 
 3. **Move Binary to Path**:
