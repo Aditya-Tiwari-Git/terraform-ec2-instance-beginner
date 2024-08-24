@@ -9,7 +9,7 @@ This repository contains a beginner-friendly guide to using Terraform to create 
 - `02-Project-Setup/`: Walks through setting up a real-life project to create an EC2 instance using Terraform.
 
 ## Project Detailed Structure
-``plaintext
+```plaintext
 terraform-ec2-instance-beginner/
 │
 ├── 00-Introduction/
