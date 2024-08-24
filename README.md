@@ -34,7 +34,7 @@ terraform-ec2-instance-beginner/
 │   └── 07-create-ec2-instance.md
 │
 └── README.md
-
+```
 
 ## Getting Started
 
