@@ -1,5 +1,3 @@
-#### **`00-Introduction/01-what-is-terraform.md`**
-```markdown
 # What is Terraform?
 
 Terraform is an open-source infrastructure as code (IaC) tool created by HashiCorp. It allows users to define and provision data center infrastructure using a high-level configuration language known as HashiCorp Configuration Language (HCL) or JSON.
