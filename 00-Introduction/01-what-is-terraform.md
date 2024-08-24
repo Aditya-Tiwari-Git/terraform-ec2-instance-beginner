@@ -1,4 +1,3 @@
-
 #### **`00-Introduction/01-what-is-terraform.md`**
 ```markdown
 # What is Terraform?
