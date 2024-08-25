@@ -1,4 +1,3 @@
-```markdown
 # Provider Configuration
 
 In Terraform, a provider is responsible for managing the lifecycle of a resource. For example, the AWS provider manages AWS resources.
@@ -10,7 +9,6 @@ In Terraform, a provider is responsible for managing the lifecycle of a resource
    provider "aws" {
      region = "us-west-2"
    }
-   ```
 
 2. **Configure the Provider**: Add your AWS credentials (optional if set in environment variables).
    ```hcl
