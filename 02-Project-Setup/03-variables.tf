@@ -1,4 +1,3 @@
-#### **`02-Project-Setup/03-variables.tf`**
 ```hcl
 variable "region" {
   description = "AWS region to deploy the instance"
