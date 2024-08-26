@@ -5,7 +5,7 @@ This section walks you through creating an EC2 instance using Terraform.
 ### Step 1: Define the Variables
 
 Create a `variables.tf` file to define any variables you want to use in your configuration.
-Note:- Please change the AMI image from the AWS console.
+#### Note:- Please change the AMI image from the AWS console according to your region.
 
 ```hcl
 variable "region" {
