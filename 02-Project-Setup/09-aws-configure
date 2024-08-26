@@ -1,0 +1,75 @@
+To install the AWS CLI on your Linux machine and configure it with AWS credentials, follow these steps:
+
+### 1. Install AWS CLI Version 2
+
+You can use the commands you provided, but I'll guide you through the steps with a bit more detail:
+
+**Step 1: Download the AWS CLI installer**
+
+```bash
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+```
+
+This command downloads the AWS CLI version 2 installer to your current directory.
+
+**Step 2: Unzip the installer**
+
+```bash
+unzip awscliv2.zip
+```
+
+This extracts the contents of the `awscliv2.zip` file.
+
+**Step 3: Run the install script**
+
+```bash
+sudo ./aws/install
+```
+
+This command installs the AWS CLI. The `sudo` command is used to ensure you have the necessary permissions to install the software.
+
+**Step 4: Verify the installation**
+
+```bash
+aws --version
+```
+
+This command should output the version of the AWS CLI that was installed, confirming that the installation was successful.
+
+### 2. Configure AWS CLI with AWS Credentials
+
+After installing the AWS CLI, you need to configure it with your AWS credentials:
+
+**Step 1: Run the AWS configure command**
+
+```bash
+aws configure
+```
+
+You'll be prompted to enter the following details:
+
+- **AWS Access Key ID**: Your AWS access key ID.
+- **AWS Secret Access Key**: Your AWS secret access key.
+- **Default region name**: The region you want to use by default (e.g., `us-west-2`).
+- **Default output format**: The output format you prefer (e.g., `json`, `text`, or `yaml`).
+
+Example:
+
+```bash
+AWS Access Key ID [None]: YOUR_ACCESS_KEY_ID
+AWS Secret Access Key [None]: YOUR_SECRET_ACCESS_KEY
+Default region name [None]: us-west-2
+Default output format [None]: json
+```
+
+**Step 2: Verify the configuration**
+
+You can verify your configuration by running a simple AWS CLI command, like listing your S3 buckets:
+
+```bash
+aws s3 ls
+```
+
+If everything is configured correctly, this command will list your S3 buckets.
+
+That's it! You've successfully installed and configured the AWS CLI on your Linux machine.
